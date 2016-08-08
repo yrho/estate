@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C60009321D4EFEBA00DF121E /* EstatesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60009311D4EFEBA00DF121E /* EstatesTableViewCell.swift */; };
+		C69E98EE1D4AEB500061689E /* Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69E98ED1D4AEB500061689E /* Swift.swift */; };
+		C6CCEA271D545AE0009E43FC /* EstatesDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CCEA261D545AE0009E43FC /* EstatesDetailTableViewCell.swift */; };
+		C6E9C5D61D4CEB3A003A1E38 /* EstatesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E9C5D51D4CEB3A003A1E38 /* EstatesDetailViewController.swift */; };
 		C6F9EC761D4472E300E27384 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F9EC751D4472E300E27384 /* AppDelegate.swift */; };
-		C6F9EC781D4472E300E27384 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F9EC771D4472E300E27384 /* ViewController.swift */; };
 		C6F9EC7B1D4472E300E27384 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F9EC791D4472E300E27384 /* Main.storyboard */; };
 		C6F9EC7D1D4472E300E27384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F9EC7C1D4472E300E27384 /* Assets.xcassets */; };
 		C6F9EC801D4472E300E27384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F9EC7E1D4472E300E27384 /* LaunchScreen.storyboard */; };
+		C6F9EC881D447AB500E27384 /* EstatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F9EC871D447AB400E27384 /* EstatesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C60009311D4EFEBA00DF121E /* EstatesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstatesTableViewCell.swift; sourceTree = "<group>"; };
+		C69E98ED1D4AEB500061689E /* Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.swift; sourceTree = "<group>"; };
+		C6CCEA261D545AE0009E43FC /* EstatesDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstatesDetailTableViewCell.swift; sourceTree = "<group>"; };
+		C6E9C5D51D4CEB3A003A1E38 /* EstatesDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstatesDetailViewController.swift; sourceTree = "<group>"; };
 		C6F9EC721D4472E300E27384 /* Estates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Estates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F9EC751D4472E300E27384 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C6F9EC771D4472E300E27384 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C6F9EC7A1D4472E300E27384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6F9EC7C1D4472E300E27384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6F9EC7F1D4472E300E27384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6F9EC811D4472E300E27384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6F9EC871D447AB400E27384 /* EstatesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstatesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				C6F9EC751D4472E300E27384 /* AppDelegate.swift */,
-				C6F9EC771D4472E300E27384 /* ViewController.swift */,
+				C60009311D4EFEBA00DF121E /* EstatesTableViewCell.swift */,
+				C6E9C5D51D4CEB3A003A1E38 /* EstatesDetailViewController.swift */,
+				C6F9EC871D447AB400E27384 /* EstatesTableViewController.swift */,
+				C69E98ED1D4AEB500061689E /* Swift.swift */,
 				C6F9EC791D4472E300E27384 /* Main.storyboard */,
 				C6F9EC7C1D4472E300E27384 /* Assets.xcassets */,
 				C6F9EC7E1D4472E300E27384 /* LaunchScreen.storyboard */,
 				C6F9EC811D4472E300E27384 /* Info.plist */,
+				C6CCEA261D545AE0009E43FC /* EstatesDetailTableViewCell.swift */,
 			);
 			path = Estates;
 			sourceTree = "<group>";
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6F9EC781D4472E300E27384 /* ViewController.swift in Sources */,
+				C6CCEA271D545AE0009E43FC /* EstatesDetailTableViewCell.swift in Sources */,
 				C6F9EC761D4472E300E27384 /* AppDelegate.swift in Sources */,
+				C60009321D4EFEBA00DF121E /* EstatesTableViewCell.swift in Sources */,
+				C6F9EC881D447AB500E27384 /* EstatesTableViewController.swift in Sources */,
+				C6E9C5D61D4CEB3A003A1E38 /* EstatesDetailViewController.swift in Sources */,
+				C69E98EE1D4AEB500061689E /* Swift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +302,7 @@
 				C6F9EC861D4472E300E27384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

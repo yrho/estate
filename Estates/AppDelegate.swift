@@ -1,10 +1,6 @@
-//
-//  AppDelegate.swift
-//  Estates
-//
-//  Created by Ho on 24/7/16.
-//  Copyright © 2016 ho. All rights reserved.
-//
+
+
+
 
 import UIKit
 
